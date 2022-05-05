@@ -49,3 +49,5 @@ def teste_dividir():
     #3- Valida
     assert resultado_obtido == resultado_esperado
 teste
+
+teste denovo
