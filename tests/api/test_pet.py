@@ -5,7 +5,7 @@ import requests
 #definições das funções
 #variaveis publicas
 url = "https://petstore.swagger.io/v2/pet"
-header = {"Content-Type": "aplication/jason"}
+headers = {"Content-Type": "aplication/jason"}
 
 
 def teste_incluir_pet():
@@ -22,7 +22,7 @@ def teste_incluir_pet():
     #executa
     resultado_obtido = requests.post(
         url=url,
-        headers=header,
+        headers=headers,
         data=open('C:\\Users\\julia\\PycharmProjects\\134inicial\\vendors\\json\\pet1.json')
     )
 
