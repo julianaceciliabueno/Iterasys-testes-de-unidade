@@ -1,0 +1,18 @@
+{
+  "id": 6033070,
+  "category": {
+    "id": 0,
+    "name": "cadela"
+  },
+  "name": "Pipoca",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "vacinada"
+    }
+  ],
+  "status": "available"
+}
